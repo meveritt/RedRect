@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="responsive d3 chart" />
+		<meta name="author" content="Michael Everitt" />
+		<title>RedRect</title>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Roboto, Arial, helvetica, sans-serif;
+			font-size: calc(.8em + 1vw);   
+			color: SaddleBrown;
+		}
+		.contentArea{
+			margin: 0 auto;
+		}
+		.graph{
+			width:90%;	
+			height:90%;
+			margin: 0 auto;
+			background-color: blue;
+		}
+		.notes{
+			font-size:.8em;
+			text-align: center;
+		}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="contentArea">
+			<div class="graph">
+			
+				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+				  <defs>
+					<style>
+					  .cls-1 {
+						fill: #fff;
+						stroke: none;
+						stroke-miterlimit: 10;
+						width:90%;
+						height:4em;
+						x:5%;
+						y:5%;
+					  }
+					  .cls-2 {
+						fill: #f99;
+						stroke: #3C913C;
+						stroke-miterlimit: 10;
+						width:90%;
+						height:90%;
+						x:5%;
+						y:5%;
+					  }
+					</style>
+				  </defs>
+				  <title>RedRect</title>
+				  <rect class="cls-2" />
+				  <rect class="cls-1" />
+				</svg>
+				
+				</div>
+			<div class="notes">Hello notes</div>
+		</div>
+	</body>
+	<script>
+	</script>
+</html>
